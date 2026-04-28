@@ -37,7 +37,7 @@ uv sync
 wandb がなくても学習は動きますが、あるとダッシュボードで学習曲線をリアルタイム確認できます。
 
 ```bash
-wandb login
+uv run wandb login
 ```
 
 ## 使い方
